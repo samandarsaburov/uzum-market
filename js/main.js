@@ -18,5 +18,19 @@ products.slice(0, 20).forEach((products) => {
     elImg.src = products.image;
 
 
+    
     elTopList.appendChild(newProduct);
 }) 
+
+
+const lang = localStorage.getItem("lang");
+
+console.log(lang);
+
+if (lang == 'uz') {
+    document.title = "internet do'kon";
+} else if (lang == 'eng') {
+    document.title = "E-commerce";
+}
+
+localStorage.setItem("lang", "eng")
