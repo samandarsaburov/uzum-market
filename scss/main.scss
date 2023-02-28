@@ -1,0 +1,18 @@
+ul{
+    list-style: none;
+}
+
+.swiper {
+    &-button-prev {
+        color: blue;
+    }
+
+    &-button-next {
+        color: blue;
+    }
+
+}
+
+.swiper-scrollbar{
+    background: blue;
+}
