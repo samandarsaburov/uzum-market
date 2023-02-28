@@ -1,0 +1,53 @@
+.swiper-button-prev {
+    color: blue;
+  }
+  .swiper-button-next {
+    color: blue;
+  }
+  
+  .swiper-scrollbar {
+    background: blue;
+  }/*# sourceMappingURL=main.css.map */
+
+
+
+  ul{
+    list-style: none;
+  }
+
+  li{
+    list-style: none;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .list_item{
+    position: relative;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: rgb(131, 135, 135);
+    font-size: 0.875rem;
+    letter-spacing: 0.5px;
+  }
+
+  .list_item:hover{
+    color: black;
+  }
+
+  .list_item:after{
+    content: "";
+    position: absolute;
+    background-color: #050110;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+  }
+
+  .list_item:hover:after{
+    width: 100%;
+    color: black;
+  }
