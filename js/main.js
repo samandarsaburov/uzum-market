@@ -1,3 +1,17 @@
+// scrol 
+window.addEventListener("scroll", function(){
+    var scroll = document.querySelector(".scroltop");
+    scroll.classList.toggle("active", window.scrollY > 500)
+})
+
+function scrollToTop(){
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    })
+}
+// scrol end 
+
 const elTopList = findElement("#products__top");
 const elTopTemplate = findElement("#product-template")
 
