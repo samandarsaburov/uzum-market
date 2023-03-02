@@ -106,6 +106,7 @@
         </ul>
 
 
+
       </div>
       <div class="header__bottom m-0 p-0 mt-2 pe-2 ps-2">
         <ul class="d-flex justify-content-between m-0 p-0 mt-3 mb-3">
@@ -125,106 +126,95 @@
       </div>
     </header>
 
-
-
-
-
-
-
     <!-- header end -->
 
+    <section class="hero">
+      <!-- scroll  -->
+      <div class="scroltop" onclick="scrollToTop()">
+        <img src="../images/scroll.svg" alt="">
+      </div>
 
-
-
-    <main>
-      <section class="hero">
-        <!-- scroll  -->
-
-        <div class="scroltop" onclick="scrollToTop()">
-          <img src="../images/scroll.svg" alt="">
-        </div>
-
-        <!-- scroll end  -->`
-        <div class="modal fade" id="exampleModal">
-          <div class="modal-dialog ">
-            <div class="modal-content ">
-              <div class=" d-flex justify-content-end p-0 m-0 pt-5 mt-3 pe-5 me-2 ">
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-              </div>
-              <div class="modal-body">
-                <form class="d-flex flex-column align-items-center mt-3">
-                  <b style="font-size: 30px;">Telefon raqamini kiriting</b>
-                  <p class="mt-2" style="font-size: 20px;">Tasdiqlash kodini SMS orqali yuboramiz</p>
-                  <div class="d-flex align-items-center mt-4">
-                    <input value="+998"
-                      style="background-color: rgb(215, 219, 223); width: 400px; height: 60px; font-size: 24px;"
-                      class="ps-2 p-0 border-0 rounded-4" placeholder="00 000-00-00">
+      <!-- scroll end  -->
+      <div class="modal fade" id="exampleModal">
+        <div class="modal-dialog ">
+          <div class="modal-content ">
+            <div class=" d-flex justify-content-end p-0 m-0 pt-5 mt-3 pe-5 me-2 ">
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              <form class="d-flex flex-column align-items-center mt-3">
+                <b style="font-size: 30px;">Telefon raqamini kiriting</b>
+                <p class="mt-2" style="font-size: 20px;">Tasdiqlash kodini SMS orqali yuboramiz</p>
+                <div class="input-group flex-nowrap rounded-4 mt-4"
+                  style="background-color: rgb(215, 219, 223); width: 400px; height: 60px;">
+                  <span class="input-group-text"  style=" font-size: 20px;" id="addon-wrapping">+998</span>
+                  <input type="tel" class="form-control" placeholder="00 000-00-00" aria-label="Username"
+                    aria-describedby="addon-wrapping" style=" font-size: 20px;">
+                </div>
+                <button class="btn_Kirish btn btn-outline-primary mt-4 p-0 rounded-40">Kodni olish</button>
+                <div class="d-flex flex-column align-items-center mt-4">
+                  <a href="#"><b style="font-size: 25px;">Parol bilan kirish</b></a>
+                  <div class="text-center mt-4 mb-4">
+                    <b>Avtotizatsiyadan o'tish orqali siz</b>
+                    <a href="#">
+                      shaxsiy <br> ma'lumotlarni qayta ishlash siyosatiga rozilik <br> bildirasiz
+                    </a>
                   </div>
-                  <button class="btn_Kirish btn btn-outline-primary mt-4 p-0 rounded-40">Kodni olish</button>
-                  <div class="d-flex flex-column align-items-center mt-4">
-                    <a href="#"><b style="font-size: 25px;">Parol bilan kirish</b></a>
-                    <div class="text-center mt-4 mb-4">
-                      <b>Avtotizatsiyadan o'tish orqali siz</b>
-                      <a href="#">
-                        shaxsiy <br> ma'lumotlarni qayta ishlash siyosatiga rozilik <br> bildirasiz
-                      </a>
-                    </div>
-                  </div>
-                </form>
-              </div>
+                </div>
+              </form>
             </div>
           </div>
         </div>
+      </div>
+      <!-- modal star -->
 
-        <!-- modal star -->
+      <!-- modal end  -->
 
-        <!-- modal end  -->
-
-        <!-- Slider main container -->
-        <div class="swiper mb-5">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide"><img class="w-100 h-75"
-                src="https://images.uzum.uz/cfqov5nhj8j9g69850sg/main_page_banner.jpg" alt=""></div>
-            <div class="swiper-slide"><img class="w-100"
-                src="https://images.uzum.uz/cfqp0u7hgiov1qicmi20/main_page_banner.jpg" alt=""></div>
-            <div class="swiper-slide"><img class="w-100"
-                src="https://images.uzum.uz/cfqp4afg49devoa8qsm0/main_page_banner.jpg" alt=""></div>
-            <div class="swiper-slide"><img class="w-100"
-                src="https://images.uzum.uz/cfqp3fvhgiov1qicmi8g/main_page_banner.jpg" alt=""></div>
-            <div class="swiper-slide"><img class="w-100"
-                src="https://images.uzum.uz/cfqp64vhj8j9g69851dg/main_page_banner.jpg" alt=""></div>
-            <div class="swiper-slide"><img class="w-100"
-                src="https://images.uzum.uz/cfqp2d7hgiov1qicmi50/main_page_banner.jpg" alt=""></div>
-            <div class="swiper-slide"><img class="w-100"
-                src="https://images.uzum.uz/cfqp7t7g49devoa8qt10/main_page_banner.jpg" alt=""></div>
-            <div class="swiper-slide"><img class="w-100"
-                src="https://images.uzum.uz/cehgelol08kcldtp1uhg/main_page_banner.jpg" alt=""></div>
-            <div class="swiper-slide"><img class="w-100"
-                src="https://images.uzum.uz/ceo2ml8v1htd23ak68s0/main_page_banner.jpg" alt=""></div>
+      <!-- Slider main container -->
+      <div class="swiper mb-5">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img class="w-100 h-75"
+              src="https://images.uzum.uz/cfqov5nhj8j9g69850sg/main_page_banner.jpg" alt=""></div>
+          <div class="swiper-slide"><img class="w-100"
+              src="https://images.uzum.uz/cfqp0u7hgiov1qicmi20/main_page_banner.jpg" alt=""></div>
+          <div class="swiper-slide"><img class="w-100"
+              src="https://images.uzum.uz/cfqp4afg49devoa8qsm0/main_page_banner.jpg" alt=""></div>
+          <div class="swiper-slide"><img class="w-100"
+              src="https://images.uzum.uz/cfqp3fvhgiov1qicmi8g/main_page_banner.jpg" alt=""></div>
+          <div class="swiper-slide"><img class="w-100"
+              src="https://images.uzum.uz/cfqp64vhj8j9g69851dg/main_page_banner.jpg" alt=""></div>
+          <div class="swiper-slide"><img class="w-100"
+              src="https://images.uzum.uz/cfqp2d7hgiov1qicmi50/main_page_banner.jpg" alt=""></div>
+          <div class="swiper-slide"><img class="w-100"
+              src="https://images.uzum.uz/cfqp7t7g49devoa8qt10/main_page_banner.jpg" alt=""></div>
+          <div class="swiper-slide"><img class="w-100"
+              src="https://images.uzum.uz/cehgelol08kcldtp1uhg/main_page_banner.jpg" alt=""></div>
+          <div class="swiper-slide"><img class="w-100"
+              src="https://images.uzum.uz/ceo2ml8v1htd23ak68s0/main_page_banner.jpg" alt=""></div>
 
 
-          </div>
-          <!-- If we need pagination -->
-          <div class="swiper-pagination"></div>
-
-          <!-- If we need navigation buttons -->
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-
-          <!-- If we need scrollbar -->
-          <div class="swiper-scrollbar"></div>
         </div>
-      </section>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
 
-      <section class="popular__product">
-        <a href="#">
-          <h2 class="text-dark mb-4"><b>Katta satuvlar ></b></h2>
-        </a>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
 
-        <ul id="products__top" class="products__top my-3 row gap-1 justify-content-between">
-          <!-- <li class="col-2 mb-3">
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </section>
+
+    <section class="popular__product">
+      <a href="#">
+        <h2 class="text-dark mb-4"><b>Katta satuvlar ></b></h2>
+      </a>
+
+      <ul id="products__top" class="products__top my-3 row gap-1 justify-content-between">
+        <!-- <li class="col-2 mb-3">
             <div class="card">
               <img class="card-img-top w-100"
                 src="https://imageio.forbes.com/specials-images/imageserve/61affa566f026cf6e3922566/0x0.jpg?format=jpg&width=1200"
@@ -235,9 +225,10 @@
               </div>
             </div>
           </li> -->
-        </ul>
+      </ul>
 
-      </section>
+    </section>
+
     </main>
 
     <footer>
